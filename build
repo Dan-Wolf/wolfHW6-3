@@ -1,0 +1,6 @@
+#!/bin/bash
+
+echo "This application builds myApp.cpp Record.cpp and PhoneBook.cpp"
+echo "Creates executable myApp"
+g++ myApp.cpp Record.cpp PhoneBook.cpp -o myApp
+echo "Finished"
